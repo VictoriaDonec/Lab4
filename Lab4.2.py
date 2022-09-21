@@ -9,5 +9,5 @@ def func(x0, x1, x2):
 t = float(input("Введіть t:"))
 n = float(input("Введіть n:"))
 k = float(input("Введіть k:"))
-S = func(t,n,k)
-print(S)
+H = func(t,n,k)
+print(H)
