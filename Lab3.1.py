@@ -1,4 +1,8 @@
 import sys
-sys.stdout.write('Задайте трицифрове число')
-bar = sys.stdin.readline()
-sys.stdout.write(str(int(bar[0]) - int(bar[2])))
+
+a = int(sys.argv[1])
+b = int(sys.argv[2])
+c = int(sys.argv[3])
+dif = a - c
+print(dif)
+
