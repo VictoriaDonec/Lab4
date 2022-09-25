@@ -1,11 +1,7 @@
-import sys
-sys.stdout.write('задайте радіус')
-bar = sys.stdin.readline()
-foo = int(bar) ** 2 * 3.14
-sys.stdout.write("площа поверхні = ")
-sys.stdout.write(str(foo))
-sys.stdout.write("\n" + 'задайте висоту')
-bar1 = sys.stdin.readline()
-foo1 = float(foo) * int(bar1)
-sys.stdout.write("обʼєм циліндра = ")
-sys.stdout.write(str(foo1))
+pi = 22 / 7
+a = float(input("Висота циліндра: "))
+b = float(input("Радіус циліндра: "))
+c = pi * b ** 2 * a
+d = 2 * pi * b * (a+b)
+print("Об'ем циліндра: ", c)
+print("Площа циліндра: ", d)
