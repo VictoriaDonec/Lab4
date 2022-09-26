@@ -3,7 +3,7 @@ X = math.fabs(float(input('ведідь X:  ')))
 x = float(input('Введіть координату x:  '))
 y = float(input('Введіть координату y:  '))
 z = float(input('Введіть координату z:  '))
-if -X/2 <= x <= X/2 and -X/2 <= y <= X/2 and -X/2 <= z <= X/2:
+if (-X/2 <= x and x <= X/2) and (-X/2 <= y and y <= X/2) and (-X/2 <= z and z <= X/2):
    print('Точка належить кубу')
 else:
    print('Точка не належить кубу')
