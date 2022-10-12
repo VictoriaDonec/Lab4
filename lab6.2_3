@@ -1,0 +1,19 @@
+#6.2
+import math as m
+a = float(input('Введіть нижню границю: '))
+b = float(input('Введіть верхню границю: '))
+h = float(input('Введіть значення кроку: '))
+spisok = []
+spisok1 = []
+while a < b:
+  foo = m.sin(a + m.pi) + m.cos(a + m.log(m.fabs(a)))
+  spisok.append(a)
+  spisok1.append(foo)
+  a += h
+spisok.extend(spisok1)
+print(spisok)
+#6.3
+FOO = 0
+for BAR in range(0, len(spisok1)):
+  FOO += spisok1[BAR]
+print("сума значень функцій = " + str(FOO))
